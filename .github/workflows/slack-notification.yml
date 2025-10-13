@@ -10,7 +10,7 @@ jobs:
           webhook: ${{secrets,SLACK_WEBHOOK}}
           webhook-type: incoming-webhook
           payload:
-            channel: github-actions
+            channel: slack-practice
             text: "mk edify workflow triggered, workflow run no: $GITHUB_RUN_NUMBER"
 
 
