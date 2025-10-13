@@ -11,10 +11,4 @@ jobs:
           webhook-type: incoming-webhook
           payload:
             channel: slack-practice
-            text: "mk edify workflow triggered, workflow run no: $GITHUB_RUN_NUMBER "
-
-
-
-          
-          P
-        
+            text: "mk edify workflow triggered, workflow run no: '$GITHUB_RUN_NUMBER' "
