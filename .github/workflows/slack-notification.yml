@@ -7,11 +7,11 @@ jobs:
       - name: slack notification
         uses: slackapi/slack-github-action@v2.1.1
         with:
-          webhook: ${{secrets, SLACK_WEBHOOK}}
+          webhook: ${{secrets,SLACK_WEBHOOK}}
           webhook-type: incoming-webhook
           payload:
             channel: github-actions
-            text: "mk edify workflow triggered, workflow run no:$GITHUB_RUN_ID"
+            text: "mk edify workflow triggered, workflow run no: $GITHUB_RUN_NUMBER"
 
 
 
