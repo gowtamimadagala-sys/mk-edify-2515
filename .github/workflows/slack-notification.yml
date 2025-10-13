@@ -10,8 +10,8 @@ jobs:
           webhook: ${{secrets, SLACK_WEBHOOK}}
           webhook-type: incoming-webhook
           payload:
-            channel:
-            text: "mk edify workflow triggered, workflow run no:$GITHUB_RUN_ID
+            channel: github-actions
+            text: "mk edify workflow triggered, workflow run no:$GITHUB_RUN_ID"
 
 
 
